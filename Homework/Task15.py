@@ -10,6 +10,8 @@
 # число – это масса соответствующего арбуза
 # Input: 5 -> 5 1 6 5 9
 # Output: 1 9
+# float(inf)
+# float(-inf)
 
 from random import randint
 
@@ -23,5 +25,5 @@ while count <= watermelon:
         min_water = weight
     elif max_water < weight:
         max_water = weight
-print(f'min - {min_water}, max - {max_water}')
+print('\n' f"min - {min_water}, max - {max_water}")
 
