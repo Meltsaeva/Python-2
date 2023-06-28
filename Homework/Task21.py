@@ -17,39 +17,11 @@ print(my_list)
 
 
 
-# Требуется найти в массиве list_1 самый близкий по величине элемент к заданному числу k и вывести его.
-
-# Пример:
 
 
-# list_1 = [1, 2, 3, 4, 5]
-# k = 6
-# # 5
-
-# count, min_dif, j = 0, float ( "inf" ), 0
-# for i in range(len(list_1)):
-#     difference = abs(k - list_1[i])
-#     if min_dif > difference:
-#         min_dif = difference
-#         j = list_1[i]
 
 
-# ребуется вычислить, сколько раз встречается некоторое
-# число X в массиве A[1..N]. Пользователь в первой строке вводит
-# натуральное число N – количество элементов в массиве. В последующих
-# строках записаны N целых чисел Ai
-# . Последняя строка содержит число X
-# 5
-# 1 2 3 4 5
-# 3
-# -
 
-# from random import randint
-# number = int(input("Input a number - "))
-# my_array = [randint(0, 9) for _ in range(number)]
-# print(my_array)
-# unknown = int(input("Input x - "))
-# print(my_array.count(unknown))
 
 # Напишите программу, которая принимает на вход строку, и отслеживает, 
 # сколько раз каждый символ уже встречался. 
