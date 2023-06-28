@@ -1,33 +1,21 @@
-# Дан массив, состоящий из целых чисел. Напишите программу,
-# которая подсчитает количество элементов массива, 
-# больших предыдущего (элемента с предыдущим номером)
+# Напишите программу для печати всех уникальных
+# значений в словаре.
+# Input: [{"V": "S001"}, {"V": "S002"}, {"VI": "S001"},
+# {"VI": "S005"}, {"VII": " S005 "}, {" V ":" S009 "}, {" VIII
+# ":" S007 "}]
+# Output: {'S005', 'S002', 'S007', 'S001', 'S009'}
 
-# from random import randint
+dictionary = [{"V": "S001"}, {"V": "S002"}, {"VI": "S001"}, {"VI": "S005"}, {"VII": "S005"}, {" V ":"S009"}, {" VIII":"S007"}]
+my_list = []
+for items in dictionary:
+    for value in items.values():
+        my_list.append(items[value])
+print(my_list)
 
-# my_list = [randint(0, 9) for _ in range(10)]
-# count = 0
-# print(my_list)
-# for i in range(1, len(my_list)):
-#     if my_list[i] > my_list[i - 1]:
-#         count += 1
-# print(count)
 
-# Требуется вычислить, сколько раз встречается некоторое число k в массиве list_1.
 
-# Найдите количество и выведите его.
-# list_1 = [1, 2, 3, 4, 5]
-# k = 3
-# # 1
-# from random import randint
 
-# my_list = [randint(0, 9) for _ in range(10)]
-# count = 0
-# number = int(input("input a number - "))
-# print(my_list)
-# for i in range(len(my_list)):
-#     if number == my_list[i]:
-#         count += 1
-# print(count)
+
 
 # Требуется найти в массиве list_1 самый близкий по величине элемент к заданному числу k и вывести его.
 
