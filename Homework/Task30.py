@@ -10,7 +10,7 @@ first_el = int(input("Input the first element - "))
 difference = int(input("Input the difference - "))
 num_el = int(input("Input a number of elements - "))
 
-
+# my_list, i = [], 1
 # while i <= num_el:
 #     my_list.append(first_el + (i - 1) * difference)
 #     i += 1
